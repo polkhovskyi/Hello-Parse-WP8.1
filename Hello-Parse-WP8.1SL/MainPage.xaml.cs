@@ -58,7 +58,7 @@ namespace Hello_Parse_WP8._1SL
             var push = new ParsePush
             {
                 Data = new Dictionary<string, object> {{"title", "My test PN"}, {"alert", "Hello Anton!"}},
-                Channels = new List<string> {"myTesthannel"}
+                Channels = new List<string> { "myTesthannel" }
             };
             await push.SendAsync();
             PrintString("Push sent");

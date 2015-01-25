@@ -36,7 +36,7 @@ namespace Hello_Parse_WP8._1SL
             // Language display initialization
             InitializeLanguage();
 
-            ParseClient.Initialize("LfTNOM31855AtX9iqWh60b3LSiNMjQPrETLai9SE", "EuKWLgs1RsZVxdOHKShJ0kfccTjTZrHb4Ly354y3");
+            ParseClient.Initialize("4AbWipQ8dD4jpMF0yUYqANh33EuWtfeI44Jf4WIz", "arxKXH5YQ1b0SQVOP953N2G46THVdfwpb7rgxf8c");
 
             this.Startup += async (sender, args) =>
             {
